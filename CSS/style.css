@@ -1,0 +1,657 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-image: url("../Images/banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.nav-item {
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding: 0px !important;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover::before {
+    width: 48%;
+}
+
+.nav-link:hover::after {
+    width: 48%;
+}
+
+.content {
+}
+
+.content h4 {
+    color: rgb(0, 142, 214);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 40px;
+}
+
+.btn-download {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-right: 2%;
+    padding: 10px 40px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.btn-view {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 10px 40px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.btn-download:hover {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 142, 214);
+}
+
+.btn-view:hover {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 142, 214);
+}
+
+.phone {
+    position: absolute;
+    bottom: 0px;
+    right: 4%;
+}
+
+.height {
+    min-height: 90vh;
+}
+
+.feature_section {
+    padding: 50px 0px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading h4 {
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(0, 142, 214);
+    margin-top: 30px;
+}
+
+.heading h1 {
+    font-size: 36px;
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(26, 26, 26);
+    padding: 20px;
+}
+
+.heading span {
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.heading span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.heading span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.feature_section:hover span::before, .feature_section:hover span::after {
+    width: 48%;
+}
+
+.icon_box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    margin: auto;
+    color: rgb(0, 142, 214);
+}
+
+.feature_item h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px;
+}
+
+.feature_item p {
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.device {
+}
+
+.device_item {
+    display: flex;
+}
+
+.divphone {
+    padding: 40px;
+    margin-left: -34px;
+}
+
+.phone2 img {
+    width: 100%;
+}
+
+.beautiful {
+    padding: 0px 100px;
+}
+
+.beautiful h3 {
+    color: rgb(0, 142, 214);
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+    text-transform: uppercase;
+    margin-top: 101px;
+}
+
+.beautiful h1 {
+    font-size: 36px;
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: -3px;
+}
+
+.beautiful span {
+    display: block;
+    height: 2px;
+    width: 55px;
+    margin: 27px 1px;
+    position: relative;
+}
+
+.beautiful span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.beautiful span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.beautiful:hover span::before, .beautiful:hover span::after {
+    width: 48%;
+}
+
+.beautiful h4 {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.beautiful p {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 40px;
+}
+
+.beautiful ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.beautifu ul li {
+}
+
+.beautiful ul li i {
+    color: rgb(0, 142, 214);
+    margin-right: -8px;
+}
+
+.super_easy {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    padding: 60px;
+}
+
+.super {
+    padding: 20px;
+    margin-top: 0%;
+    margin-left: 13%;
+}
+
+.super h4 {
+    color: rgb(0, 142, 214);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.super h1 {
+    font-size: 36px;
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.super span {
+    display: block;
+    height: 2px;
+    width: 46px;
+    position: relative;
+}
+
+.super span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.super span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.super:hover span::before, .super:hover span::after {
+    width: 48%;
+}
+
+.super p {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.sphone {
+    width: 500px;
+}
+
+.sphone img {
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial_section {
+    background-image: url("../Images/testi1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0px;
+}
+
+.testimonial_section .heading h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: -100px;
+}
+
+.slide_item {
+}
+
+.slide_item p {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+}
+
+.client {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.client_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.client_details {
+}
+
+.client_details h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.client_details p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.owl-dots .owl-dot span {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+    border: 1px solid gray;
+    display: block;
+    margin: 3px;
+    border-radius: 50px;
+}
+
+.owl-dots .active span {
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+}
+
+.testimonial_section:hover span::before, .testimonial_section:hover span::after {
+    width: 48%;
+}
+
+.ad_section {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0px;
+}
+
+.ad_section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.btn {
+    margin-right: 15px;
+}
+
+.order {
+    color: rgb(0, 142, 214);
+    font-size: 14px;
+    font-weight: 650;
+    margin-bottom: 15px;
+}
+
+.pricing_section {
+    padding: 60px 0px;
+}
+
+.pricing_section h4 {
+    color: rgb(0, 142, 214);
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.price_table {
+    border: 1px solid rgb(153, 153, 153);
+    text-align: center;
+    padding: 0px;
+}
+
+.price_table h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.pricing_section:hover span::before, .pricing_section:hover span::after {
+    width: 48%;
+}
+
+.price {
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(153, 153, 153);
+    padding: 25px 0px;
+}
+
+
+.price h1 {
+    font-size: 60px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.price h1 sup {
+    font-size: 35px;
+}
+
+.price p {
+    padding: 0px !important;
+}
+
+.price_table p {
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    padding: 30px 20px;
+}
+
+.price_table:hover h2 {
+    color: rgb(0, 142, 214);
+}
+
+.price_table:hover .price, .price_table:hover .order {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.contact_us {
+    background-color: rgb(237, 237, 237);
+    padding: 60px 0px 400px;
+    position: relative;
+}
+
+.contact_us h4 {
+}
+
+.contact_us h1 {
+}
+
+.contact_us:hover span::before, .contact_us:hover span::after {
+    width: 48%;
+}
+
+.contact_us i {
+    color: rgb(0, 142, 214);
+    font-size: 30px;
+}
+
+.contact_us p {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+}
+
+.form_box {
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+.form_box form input {
+    background: transparent;
+    border-color: rgb(153, 153, 153);
+}
+
+.form_box form textarea {
+    background: transparent;
+    height: 150px;
+    border-color: rgb(153, 153, 153);
+}
+
+.form_box form input[type="submit"] {
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 20px;
+    background-color: rgb(0, 142, 214);
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+}
+
+.map iframe {
+    display: block;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+.icon_upper {
+    display: flex;
+    margin-left: 41%;
+    padding: 20px 10px;
+    letter-spacing: 35px;
+}
+
+.footer_wrapper p {
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.icon_upper i:hover {
+    color: rgb(0, 142, 214);
+}
+
+.navbar-toggler {
+    padding: 0px;
+}
+
+.navbar-toggler-i {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    font-size: 20px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.hide_dsk {
+    display: none;
+}
